@@ -1,1 +1,53 @@
-{"author":{"email":"hugo@kaimomedia.com","name":"GeoSeen"},"description":"Check how often AI assistants mention your brand. Read-only access to GeoSeen's public brand-visibility leaderboard.","devDependencies":{"@n8n/node-cli":"*","eslint":"9.39.4","prettier":"3.8.3","release-it":"20.2.0","typescript":"^5.9.3"},"files":["dist"],"homepage":"https://auditlab.site","keywords":["n8n-community-node-package","geoseen","ai-visibility","brand-mentions","geo","llm-monitoring"],"license":"MIT","n8n":{"credentials":[],"n8nNodesApiVersion":1,"nodes":["dist/nodes/GeoSeen/GeoSeen.node.js"],"strict":true},"name":"n8n-nodes-geoseen","peerDependencies":{"n8n-workflow":"*"},"repository":{"type":"git","url":"https://github.com/KEithwy1030/n8n-nodes-geoseen.git"},"scripts":{"build":"n8n-node build","build:watch":"tsc --watch","dev":"n8n-node dev","lint":"n8n-node lint","lint:fix":"n8n-node lint --fix","prepublishOnly":"n8n-node prerelease","release":"n8n-node release"},"version":"0.1.0"}
+{
+  "author": {
+    "email": "hugo@kaimomedia.com",
+    "name": "GeoSeen"
+  },
+  "description": "Check how often AI assistants mention your brand. Read-only access to GeoSeen's public brand-visibility leaderboard.",
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "eslint": "9.39.4",
+    "prettier": "3.8.3",
+    "release-it": "20.2.0",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://auditlab.site",
+  "keywords": [
+    "n8n-community-node-package",
+    "geoseen",
+    "ai-visibility",
+    "brand-mentions",
+    "geo",
+    "llm-monitoring"
+  ],
+  "license": "MIT",
+  "n8n": {
+    "credentials": [],
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/GeoSeen/GeoSeen.node.js"
+    ],
+    "strict": true
+  },
+  "name": "n8n-nodes-geoseen",
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KEithwy1030/n8n-nodes-geoseen.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "prepublishOnly": "n8n-node prerelease",
+    "release": "n8n-node release"
+  },
+  "version": "0.1.1"
+}
