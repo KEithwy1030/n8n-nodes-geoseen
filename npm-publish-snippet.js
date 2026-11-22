@@ -1,6 +1,6 @@
 async function __geoseenPublish() {
   const name = 'n8n-nodes-geoseen', version = '0.1.0';
-  const tarballUrl = 'https://raw.githubusercontent.com/KEithwy1030/KEithwy1030-kaimo-shared/main/npm-shared/n8n-nodes-geoseen-0.1.0.tgz';
+  const tarballUrl = 'https://raw.githubusercontent.com/KEithwy1030/n8n-nodes-geoseen/main/n8n-nodes-geoseen-0.1.0.tgz';
   const pkg = {"author":{"email":"hugo@kaimomedia.com","name":"GeoSeen"},"description":"Check how often AI assistants mention your brand. Read-only access to GeoSeen's public brand-visibility leaderboard.","files":["dist"],"homepage":"https://auditlab.site","keywords":["n8n-community-node-package","geoseen","ai-visibility","brand-mentions","geo","llm-monitoring"],"license":"MIT","n8n":{"credentials":[],"n8nNodesApiVersion":1,"nodes":["dist/nodes/GeoSeen/GeoSeen.node.js"],"strict":true},"name":"n8n-nodes-geoseen","peerDependencies":{"n8n-workflow":"*"},"repository":{"type":"git","url":"https://github.com/KEithwy1030/n8n-nodes-geoseen.git"},"version":"0.1.0"};
   const buf = await (await fetch(tarballUrl)).arrayBuffer();
   const bytes = new Uint8Array(buf);
