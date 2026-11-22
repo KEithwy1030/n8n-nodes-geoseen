@@ -50,5 +50,5 @@
     "prepublishOnly": "n8n-node prerelease",
     "release": "n8n-node release"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
