@@ -35,8 +35,10 @@ per hour per IP.
 ## Example
 
 Weekly watch: Schedule Trigger (Mondays 09:00) → GeoSeen
-List Leaderboard → IF your brand's mention rate rose → Slack
-message. See the example workflow in `examples/weekly-watch.json`.
+List Leaderboard (top 10) → GeoSeen Get Brand Mention
+(`q=Ghost`) → IF Ghost's mention rate fell below 1.0 → Slack
+message. See the example workflow in `examples/weekly-watch.json`
+(shipped in the package since 0.1.1).
 
 Manual lookup: Manual Trigger → GeoSeen Get Brand Mention
 (`q=Ghost`) → Ghost mentioned 4 out of 4 answered questions,
